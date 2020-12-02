@@ -7,6 +7,7 @@ import IMazeFactory from './imazefactory';
 
 function createMaze(factory : IMazeFactory): Maze {
   // Create rooms.
+  const abc = "ABC"
   var aMaze = factory.makeMaze();
   var r1 = factory.makeRoom();
   var r2 = factory.makeRoom();
